@@ -1,5 +1,4 @@
 message: Hello from Movie Service application
-
 server:
   port: 9011
 management:
