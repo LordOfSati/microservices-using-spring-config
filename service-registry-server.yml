@@ -1,0 +1,3 @@
+message: Hello from Service Resgistry application
+server:
+  port: 9002
