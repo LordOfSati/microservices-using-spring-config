@@ -1,6 +1,6 @@
-message: Hello from Movie Service Edge Service
+message: Hello from Movie Review Service application
 server:
-  port: 9013
+  port: 9012
 management:
   security:
     enabled: false
@@ -12,3 +12,9 @@ eureka:
       defaultZone: http://localhost:9002/eureka/
   instance:
     hostname: localhost
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: movie-reviews
