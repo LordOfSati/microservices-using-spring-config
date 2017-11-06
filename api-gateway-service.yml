@@ -1,0 +1,14 @@
+message: Hello from API Gateway application
+server:
+  port: 8888
+zuul:
+  ignoredServices: '*'
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+  routes:
+    movie-service-client:
+      path: /api/**
+      url: http://movie-service-client:9013
+      stripPrefix: false
+      sensitiveHeaders: 
