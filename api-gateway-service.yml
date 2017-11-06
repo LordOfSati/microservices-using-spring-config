@@ -9,6 +9,6 @@ zuul:
   routes:
     movie-service-client:
       path: /api/**
-      url: http://movie-service-client:9013
+      serviceId: movie-service-client
       stripPrefix: false
       sensitiveHeaders: 
