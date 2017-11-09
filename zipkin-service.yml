@@ -1,0 +1,11 @@
+server:
+  port: 9004
+spring:
+  datasource:
+    initialize: false
+spring:
+  sleuth:
+    enabled: false
+zipkin:
+  store:
+    type: mem
