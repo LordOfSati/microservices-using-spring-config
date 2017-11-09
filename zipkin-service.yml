@@ -3,7 +3,6 @@ server:
 spring:
   datasource:
     initialize: false
-spring:
   sleuth:
     enabled: false
 zipkin:
